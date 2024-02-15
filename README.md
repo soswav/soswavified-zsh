@@ -21,8 +21,6 @@ You can get `display3d` [here](https://github.com/redpenguinyt/display3d) *(cool
 
 You can probably get the others from your package manager, or simply build them yourself. Once again, **they are optional**.
 
-Every file inside the repository has some information on what does what, but considering you're using ZSH I bet you already know what does what.
-
 ## Yeah yeah, but how do I install it?
 Simple! just clone the repo and move all the files *(.zshrc and .zsh)* to your home directory. 
 
@@ -53,6 +51,6 @@ Sends you to your home directory, downloads the installer, makes it executable, 
 You should also read the installer file but considering you're *this* lazy, you probably won't.
 
 ## Okay, sure, but how do I customize?
-Go to your .zsh folder and edit the files.
+Go to your .zsh folder and read the **README.md** file.
 
-That's all. Just.. edit. And if **SOMEONE** ever asks me how to add aliases I'll finally complete this section.
+I'll update it constantly to tell you *what does what*.

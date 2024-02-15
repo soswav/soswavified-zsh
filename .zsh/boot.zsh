@@ -1,6 +1,7 @@
 ##### run at boot file #####
 
-#macchina
-nitch
+# macchina ## requires macchina ##
+# nitch ## requires nitch ##
+neofetch
 
 ##### end of file #####
