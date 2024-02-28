@@ -108,7 +108,9 @@ Where aliases can be found. This file contains some dependencies but it's up to 
 2. `nnn` | Another file manager if `fff` wasn't enough for you. Link to the repository [here](https://github.com/jarun/nnn).
 3. `exa` | `ls`-like tool. Provides color and icons. Link to the repository [here](https://github.com/ogham/exa).
 4. `display3d` | Display 3D models inside your terminal. You may recognize it if you like to lurk [r/unixporn](https://reddit.com/r/unixporn). The repository can be found [here](https://github.com/redpenguinyt/display3d).
+5. 
 Some of the defaults aliases are the following:
+
 1. `fetch` | Prints computer info; uses fetch tool mentioned in `.zshrc`. Defaults to `uwufetch`.
 2. `cclear` | Used to reload config/clear the screen.
 3. `blahaj` | **Requires `display3d`.** Shows a spinning shark in your terminal if `display3d` is installed and if `blahaj.obj` is avaible in your `Documents` folder.
