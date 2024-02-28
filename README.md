@@ -4,10 +4,9 @@
 After thinking for a while *(almost 3 hours)*, I said to myself:
 > Wait, why not share it?
 >
-> I mean, some people may have better setups and all.. And I REALLY don't want to get roasted for being so.. simple..
+> I mean, some people may have better setups and all.. And I REALLY don't want to get roasted for having such a bad configuration...
 >
-> Well.. Why not just make it have an installer AND also be called 
-*"soswavified"* to avoid getting roasted?
+> Well.. Why not just make it have an installer?
 
 And this is pretty much why I made this, uh, thing.
 
@@ -16,6 +15,8 @@ This currently needs:
 + zsh (duh)
 + display3d (optional)
 + exa (optional)
++ nitch (optional)
++ a brain (((optional)))
 ```
 You can get `display3d` [here](https://github.com/redpenguinyt/display3d) *(cool rice, dude!)*
 
@@ -25,12 +26,11 @@ You can probably get the others from your package manager, or simply build them 
 Simple! just clone the repo and move all the files *(.zshrc and .zsh)* to your home directory. 
 
 ```sh
-cd $HOME ; git clone http://github.com/soswav/soswavified-zsh
+cd "$HOME" ; git clone https://codeberg.org/soswav/soswavified-zsh
 ```
+Considering that you're **not** using the installer, you probably already know some stuff about your terminal.
 
-Considering that you're *not* using the installer, you probably already know some stuff about your terminal.
-
-Now, just move the `.zshrc` file to whereever you want as I **seriously** want you to backup your stuff.
+Now, just move the old `.zshrc` file to whereever you want as I **seriously** want you to backup your stuff.
 
 Now that you've done that, just run:
 ```sh
@@ -40,17 +40,20 @@ That should move the files to your home folder.
 
 ## Nah, I'm too lazy for cloning and moving the files a bit.
 1. First of all, OK.
-2. Second of all, Sure!
+2. Second of all, sure!
 
 Just run this in your terminal:
 ```sh
-cd $HOME ; wget http://raw.githubusercontent.com/soswav/soswavified-zsh/main/installer.sh ; chmod u+x installer.sh ; ./installer.sh
+cd $HOME ; wget https://codeberg.org/soswav/soswavified-zsh/raw/branch/main/installer.sh ; chmod u+x installer.sh ; ./installer.sh
 ```
 Sends you to your home directory, downloads the installer, makes it executable, and executes it. 
 
-You should also read the installer file but considering you're *this* lazy, you probably won't.
+You should also read the installer file but considering you're **this** lazy, you probably won't read it.
 
 ## Okay, sure, but how do I customize?
 Go to your .zsh folder and read the **README.md** file.
 
-I'll update it constantly to tell you *what does what*.
+I'll update it constantly to tell you *"What Does What"*.
+
+## Nah dude, this config **fucking** SUCKS. (Excuse me for the lenguage.)
+Open a issue and tell me what I should improve then! I could add it ;)

@@ -1,0 +1,455 @@
+ping 1.1.1.1
+nvim ~/.config/kitty/kitty.conf
+exit
+nvim ~/.zsh
+exit
+fetch
+cclear
+exit
+ping9
+nvim ~/.zsh/aliases.zsh
+exit
+ping9
+ping1
+ping8
+ping9
+exit
+git clone --depth 1 https://github.com/prasanthrangan/hyprdots ~/Hyprdots
+git clone --depth 1 https://github.com/prasanthrangan/hyprdots ~/Hyprdots
+cd ~/Hyprdots/Scripts
+sudo pacman -S flatpak
+flatpak install flathub org.vinegarhq.Vinegar
+./install.sh
+yay -Rns firefox
+yay -Rns visual-studio-code-bin
+yay -Rns visual-studio-code-bin-debug
+yay -Rns eza
+yay -S exa
+yay -Rns oh-my-zsh-git
+yay -Rns zsh-theme-powerlevel10k
+yay -Rns pokemon-colorscripts-git
+exit
+yay -Rns thunar
+yay -Rns thunar thunar-volman thunar-archive-plugin
+yay -Rns mousepad
+eixt
+exit
+neofetch
+yay -Rns neofetch
+exit
+loadkeys es
+nvim /etc/vconsole.conf
+localectl set-keymap --no-convert es
+setxkbmap es
+exit
+ping 1.1.1.1
+n
+cd ~/.config/hypr
+dirsa
+nvim
+exit
+nvim ~/.config/hypr/keybindings.conf
+exit
+sh -c "$(curl -sS https://raw.githubusercontent.com/Vendicated/VencordInstaller/main/install.sh)"
+sh -c "$(curl -sS https://raw.githubusercontent.com/Vendicated/VencordInstaller/main/install.sh)"
+exit
+yay -S htop
+sudo htop
+exit
+cd ~/.config/hypr ; nvim
+exit
+yay -Ss tauon
+flatpak search tauon
+flatpak install com.github.taiko2k.tauonmb
+exit
+yay -S python-pipx
+pipx install spotdl
+spotdl 'https://music.youtube.com/watch?v=1DrI206oTE4&list=OLAK5uy_k1uLF-NWumL_jx_xUs-ZSUxR-AxJ4PpHU'
+nvim ~/.zsh/misc.zsh
+nvim ~/.zsh/misc.zsh
+spotdl 'https://music.youtube.com/watch?v=1DrI206oTE4&list=OLAK5uy_k1uLF-NWumL_jx_xUs-ZSUxR-AxJ4PpHU'
+exit
+nvim .config/hypr/windowrules.conf
+exit
+spotdl 'https://music.youtube.com/watch?v=1DrI206oTE4&list=OLAK5uy_k1uLF-NWumL_jx_xUs-ZSUxR-AxJ4PpHU'
+spotdl 'https://music.youtube.com/playlist?list=OLAK5uy_k1uLF-NWumL_jx_xUs-ZSUxR-AxJ4PpHU&si=RuV1PZkb2uaQZoXf'
+exit
+cava
+exit
+man cmus
+man cmus
+man 7 cmus-tutorial
+yay -S man
+exit
+cava
+yay -S cmus
+cmus
+exit
+nvim ~/.config/hypr/keybindings.conf
+exit
+nvim .config/hypr/keybindings.conf
+exit
+nvim .config/hypr/keybindings.conf
+n
+yay -S fff
+nvim ~/.zsh/aliases.zsh
+source ~/.zshrc
+f
+exit
+yay -Ss signal
+yay -Ss signal-dektop
+yay -S signal-desktop
+cd Documents
+dirs
+cd ratdex
+python dex.py
+pipx install discord.py
+pipx install discord
+pipx install discord.py pyyaml requests
+pipx install discordpy pyyaml requests
+pipx install pyyaml requests
+yay -S python-pip
+yay -S python-discordpy
+yay -S python-discord
+yay -S python-yaml python-discord-py python-requests
+cmus
+cava
+ping1
+exit
+cd Documents
+cd ratdex
+python dex.py
+nvim
+exit
+cd Documents/ratdex ; python dex.py
+yay -Ss authenticator
+flatpak search authenticator
+flatpak install com.belmoussaoui.Authenticator
+exit
+f
+exit
+nvim ~/Documents/ratdex
+cd Documents/ratdex
+python dex.py
+EXIT
+exit
+ping1
+flatpak search tauon
+flatpak uninstall com.github.taiko2k.tauonmb
+exit
+ping1
+ping1
+exit
+cmus
+exit
+cava
+ping1
+fetch
+fetch -i
+fetch -l
+fetch -d solus -i
+fetch -d solus 
+fetch -d macos
+fetch -d mios
+fetch -d ios
+fetch -d ios -i
+fetch -d windows -i
+fetch -d artix -i
+fetch -d artix
+fetch -d arco -i
+fetch -d arco
+fetch -d arctix
+fetch -d artix
+fetch -d arcolinux -i
+fetch -d arcolinux
+fetch -d manjaro
+fetch -d manjaro -i
+fetch -d manjaro-arm -i
+fetch -d raspbian -i
+fetch -d raspbian
+fetch -d endeavouros -i
+fetch -d endeavouros
+fetch -d pop
+fetch -d pop -i
+cclear
+ping1
+exit
+ping1
+ping1
+ping1
+ping1
+ping1
+fetch
+fastfetch
+exit
+cclear
+nvim
+exit
+exit
+fastfetch
+cmus
+cava
+nvim
+nvim
+exit
+exit
+nvim 
+exit
+nvim 
+nvim
+exit
+exit
+exit
+exit
+nvim
+exit
+cclear
+exit
+cclear
+exit
+cclear
+exit
+cclear
+exit
+ping1
+history
+history
+exit
+fastfetch
+exit
+exit
+cclear
+exit
+cclear
+exit
+cd ~/.config/hypr
+nvim
+cmus
+exit
+cava
+exit
+cava
+cmus
+fastfetch
+fast-theme
+exit
+nnn
+nnn --help
+man nnnn
+man nnnn
+man nnn
+exit
+cclear
+ping1
+~/.config/hypr/scripts/wbarconfgen.sh n
+exit
+pacman -S kitty
+sudo pacman -S kitty
+sudo pacman -S gtk
+sudo pacman -S gkt
+sudo pacman -S gnome-keyring
+reboot
+pacman -S kitty
+sudo pacman -S kitty
+sudo pacman -S gtk
+sudo pacman -S gkt
+sudo pacman -S gnome-keyring
+reboot
+sudo pacman -S gtk3
+sudo pacman -Syu
+yay -S konsole
+systemctl reboot
+ping 1.1.1.1
+yay -Ss kitty
+yay -S kitty-img
+kitty
+nvim ~/.config/kitty/kitty.conf
+yay -Rns konsole
+exit
+cd Documents/ratdex
+python dex.py
+exit
+cmus
+cava
+cmus
+cclear
+ping9
+gr
+fsd
+fds
+fds
+f
+n
+cava
+exit
+cmus
+exit
+f
+exit
+fastfetch
+pfetch
+yay -Rns fastfetch
+dirs
+dirsa
+cd Documents/ratdex
+nvim installer.sh
+exit
+yay -S neofetch
+neofetch
+yay -Rns neofetch
+yay -Ss qbittorrent
+yay -S qbittorrent
+yay -Ss nix
+yay -S nix
+yay -Ss appimage
+yay -Ss appimage-installer
+yay -S appimage-installer-bin
+exit
+yay -Rns appimage-installer-bin
+exit
+cmus
+yay -Ss cursor
+nix build hyfetch
+nix build hyfetch --extra-experimental-features nix-command
+sudo nix build hyfetch --extra-experimental-features nix-command
+sudo nix build hyfetch --extra-experimental-features nix-command flakes
+sudo nix build hyfetch --extra-experimental-features nix-command, flakes
+sudo nix build hyfetch --extra-experimental-features nix-command --extra-experimental-features flakes
+yay -Ss motrix
+yay -Rns qbittorrent
+yay -S motrix-bin
+yay -Ss bfetch
+curl https://raw.githubusercontent.com/NNBnh/bfetch/main/bin/bfetch > ~/.local/bin/bfetch\
+chmod +x ~/.local/bin/bfetch
+bfetch
+bfetch
+rm -rf .local/bin/bfetch
+curl https://raw.githubusercontent.com/info-mono/diyfetch/main/diyfetch > ~/.local/bin/diyfetch\
+chmod +x ~/.local/bin/diyfetch
+diyfetch
+yay -S gum
+diyfetch
+nvim .local/bin/diyfetch
+diyfetch --help
+diyfetch -h
+exit
+diyfetch -h
+nvim .local/bin/diyfetch
+exit
+fastfetch
+pfetch
+fetch
+diyfetch 
+diyfetch
+diyfetch
+diyfetch
+diyfetch
+rm -rf .local/bin/diyfetch
+pfetch
+which uwufetch~
+which uwufetch~
+which uwufetch
+sudo nvim /usr/bin/uwufetch
+cclear
+cava
+cmus
+cava
+exit
+cava
+cava
+cava
+cava
+cmus
+uwufetch -i
+uwufetch -l
+uwufetch -d freebsd -i
+uwufetch -d freebsd
+uwufetch -d fedora -i
+uwufetch -d femboyos -i
+uwufetch -d femboyos
+uwufetch -d amogos -i
+exit
+nvim 
+pfetch
+pfetch --help
+exit
+vim .zshrc
+exit
+ping1
+exit
+man help
+exit
+cclear
+spotdl
+exit
+nvim .zshrc
+xit
+exit
+exa -la
+exa
+cclear
+cdl ~/.config
+cdl ~
+cclear
+cdl ~
+cclear
+cdl Documents
+cdl Documents -F
+cdl ~ backup -F
+cdl ~ -F
+cdl ~ -la
+cclear
+cdl ~
+cdl ~ -a
+cdl .local/bin
+exit
+fetch
+exit
+cdl ~
+exit
+cava
+ping1
+exit
+exit
+fetch
+exit
+exit
+ping 1.1.1.1
+exit
+ping1
+cclear
+exit
+which $SHELL
+which bas
+which bash
+which spotdl
+which fff
+sudo nvim /usr/bin/fff
+cclear
+fetch -i
+fetch -d gentoo -i
+fetch -d gentoo
+exit
+f
+cd .zsh ; nvim
+f
+exit
+cava
+cava
+cmus
+cava
+cava
+cava
+cava
+cava
+ping9
+exit
+cmus
+cava
+cclear
+fetch
+cd .zsh ; nvim
+exit
+which bas
+which bash,.~exit
+exit

@@ -1,7 +1,9 @@
-##### stuff that should be runned #####
+##### misc.zsh file
 
-HISTFILE=1000000
-SAVEHIST=1000000
-HISTFILE="$HOME/.zsh/.h/cache"
+HISTFILE=1000000              ## i forgot
+SAVEHIST=1000000              ## i also forgot
+HISTFILE="$Z/.history/cache"  ## history file
 
-##### end of file #####
+export PATH=$PATH:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:$H/.local/bin
+
+##### end of file

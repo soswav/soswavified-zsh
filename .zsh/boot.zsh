@@ -1,7 +1,5 @@
-##### run at boot file #####
+##### boot.zsh file
 
-# macchina ## requires macchina ##
-# nitch ## requires nitch ##
-neofetch
+$FETCHTOOL
 
-##### end of file #####
+##### end of file
