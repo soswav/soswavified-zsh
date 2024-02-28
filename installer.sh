@@ -1,27 +1,3 @@
-
-Issues
-Pull Requests
-Milestones
-Explore
-[sleeping on sound waves]
-soswav
-/
-soswavified-zsh
-Code
-Issues
-Pull Requests
-Packages
-Projects
-Releases
-Wiki
-Activity
-Settings
-soswavified-zsh
-/installer.sh
-83 lines
-2.9 KiB
-Bash
-Executable File
 #!/bin/bash
 
 # colors
@@ -105,36 +81,3 @@ fi
 sleep 2 ; mv $CD/.zsh $HOME
 
 echo -e "${GREEN}You did it! You have successfully installed my ZSH version!${NC}" ; sleep 1
-Codeberg
-
-    Documentation
-    Community Issues
-    Landing Page
-    Contributing
-    Report Abuse 
-
-Association
-
-    Who are we?
-    Bylaws / Satzung
-    Donate
-    Join / Support
-    Contact
-
-Service
-
-    Codeberg Pages
-    Weblate Translations
-    Woodpecker CI
-    Forgejo API
-    Status Page
-
-Legal
-
-    Imprint / Impressum
-    Privacy Policy
-    Licenses
-    Terms of Use
-
-Blog | Mastodon | Matrix Space
-
