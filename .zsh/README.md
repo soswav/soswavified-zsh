@@ -11,25 +11,24 @@ Well, now I'll actually say **"what does what"**.
 This is the folder that goes inside your `$HOME` *(`~`)* directory.
 
 This folder is sortof well organized. At first glance, you will notice a set of files:
-1. `.history` | This is where you can find the cache, AKA your commands history. [*](https://ok.com)
- - `cache` | Where your history is saved. [*](https://ok.com)
-2. `zinit/` | Where most of Zinit-related stuff is located. [*](https://ok.com)
- - `loader.zsh`  | Loads Zinit and attempts to install if not installed already. [*](https://ok.com)
- - `plugins.zsh` | Where plugins to load with Zinit are located. [*](https://ok.com)
- - `themes.zsh`  | Where you place your theme from the [Oh-My-Zsh]() repositories. [*](https://ok.com)
-3. `aliases.zsh` | Where the aliases are located. [*](https://ok.com)
-4. `boot.zsh` | Commands to be runned at startup. I usually use this with a fetch tool such as [Nitch](). [*](https://ok.com)
-5. `misc.zsh` | Misc stuff that I run at startup. They are **mostly** important. [*](https://ok.com)
-6. `starship.zsh` | Loads [Starship](https://starship.rs) with Zinit. [*](https://ok.com)
+1. `.history` | This is where you can find the cache, AKA your commands history. 
+   - `cache` | Where your history is saved.
+2. `zinit/` | Where most of Zinit-related stuff is located.
+   - `loader.zsh`  | Loads Zinit and attempts to install if not installed already.
+   - `plugins.zsh` | Where plugins to load with Zinit are located.
+   - `themes.zsh`  | Where you place your theme from the [Oh-My-Zsh](https://github.com/ohmyzsh/ohmyzsh) repositories.
+3. `aliases.zsh` | Where the aliases are located.
+4. `boot.zsh` | Commands to be runned at startup. I usually use this with a fetch tool such as [Nitch]().
+5. `misc.zsh` | Misc stuff that I run at startup. They are **mostly** important.
+6. `starship.zsh` | Loads [Starship](https://starship.rs) with Zinit.
 >[!TIP]
 > I recommend reading the comments in every file as they can be useful if you want to customize.
 
->[!NOTE]
-> All the listed files have a "*" for quick navigation.
-
 Now, you may ask:
+
 > why zinit tho :thinking:
-Well, I want speed and, well, Zinit lets me do just that. Zinit also allows me to use themes from the [Oh-My-Zsh repository](), which is also pretty good. I recommend checking [Zinit's GitHub repository](https://github.com/zdharma-continuum/zinit) as it contains information on how to migrate from Oh-My-Zsh and other useful information you may want to know.
+
+Well, I want speed and, well, Zinit lets me do just that. Zinit also allows me to use themes from the [Oh-My-Zsh repository](https://github.com/ohmyzsh/ohmyzsh), which is also pretty good. I recommend checking [Zinit's GitHub repository](https://github.com/zdharma-continuum/zinit) as it contains information on how to migrate from Oh-My-Zsh and other useful information you may want to know.
 
 ### .history/
 `.history` *(or `.h`)* is where you can find your `cache` file. This is where your ZSH history will be saved.
@@ -53,7 +52,7 @@ This is where most of the Zinit files can be found.
 Once again, there's not much to be said about this folder.
 
 #### zinit/loader.zsh
-This is where Zinit will load *(or install if not already)*, Zinit is used due to reasons [mentioned above]().
+This is where Zinit will load *(or install if not already)*, Zinit is used due to reasons mentioned above.
 
 Not much to be said about the file.
 
@@ -71,7 +70,7 @@ zinit load marlonrichert/zsh-autocomplete
 # I normally use "light" when the plugin I will use WON'T be used a lot when inside the terminal.
 ```
 >[!NOTE]
-> You can find some plugins in [Awesome-ZSH-Plugins](https://github.com/unixorn/awesome-zsh-plugins).
+> You can find some plugins in [Awesome-Zsh-Plugins](https://github.com/unixorn/awesome-zsh-plugins).
 
 There's also the `turbo` mode. The `turbo` mode is placed above the "loading" of the plugin. The `turbo` mode is for what Zinit is mostly known for; the speed. An example can be seen here:
 ```sh
@@ -90,11 +89,11 @@ zinit load marlonrichert/zsh-autocomplete
 # Again, again, "zinit ice wait'!0' lucid" can be replaced with "zinit ice wait 0 lucid"
 # It can also be used with the "light" mode.
 ```
->[!WARN]
-> You should read the GitHub repository for Zinit as I could be wrong. The repository can be found [here](https://github.com/zdharma-continuum/zinit).
+>[!WARNING]
+> You should read the GitHub repository for Zinit as I could be wrong. The repository can be found [here](https://github.Icom/zdharma-continuum/zinit).
 
 #### zinit/themes.zsh
-This is where you can load themes from the [Oh-My-Zsh]() repository. You can find a list of the themes in the [wiki](), especially in the "Themes" section.
+This is where you can load themes from the [Oh-My-Zsh](https://github.com/ohmyzsh/ohmyzsh) repository. You can find a list of the themes in the [wiki](https://github.com/ohmyzsh/ohmyzsh/wiki), especially in the "Themes" section.
 
 To set one you like, simply go to the file and edit this line:
 ```sh
@@ -106,8 +105,8 @@ zi snippet OMZT::kardan # Edit "kardan" to whatever you like.
 ## .zsh/aliases.zsh
 Where aliases can be found. This file contains some dependencies but it's up to you if you want to use them or not. Some of them include:
 1. `fff` | Really fast file manager. Link to the repository [here](https://github.com/dylanaraps/fff).
-2. `nnn` | Another file manager if `fff` wasn't enough for you. Link to the repository [here]().
-3. `exa` | `ls`-like tool. Provides color and icons. Link to the repository [here]().
+2. `nnn` | Another file manager if `fff` wasn't enough for you. Link to the repository [here](https://github.com/jarun/nnn).
+3. `exa` | `ls`-like tool. Provides color and icons. Link to the repository [here](https://github.com/ogham/exa).
 4. `display3d` | Display 3D models inside your terminal. You may recognize it if you like to lurk [r/unixporn](https://reddit.com/r/unixporn). The repository can be found [here](https://github.com/redpenguinyt/display3d).
 Some of the defaults aliases are the following:
 1. `fetch` | Prints computer info; uses fetch tool mentioned in `.zshrc`. Defaults to `uwufetch`.
