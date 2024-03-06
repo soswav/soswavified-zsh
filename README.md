@@ -44,7 +44,7 @@ That should move the files to your home folder.
 
 Just run this in your terminal:
 ```sh
-cd $HOME ; wget https://codeberg.org/soswav/soswavified-zsh/raw/branch/main/installer.sh ; chmod u+x installer.sh ; ./installer.sh
+cd $HOME ; wget https://github.com/soswav/soswavified-zsh/raw/branch/main/installer.sh ; chmod +x installer.sh ; ./installer.sh
 ```
 Sends you to your home directory, downloads the installer, makes it executable, and executes it. 
 
