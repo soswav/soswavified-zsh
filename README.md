@@ -46,6 +46,9 @@ Just run this in your terminal:
 ```sh
 cd $HOME ; wget https://github.com/soswav/soswavified-zsh/raw/branch/main/installer.sh ; chmod +x installer.sh ; ./installer.sh
 ```
+>[!NOTE]
+>Currently, the installer won't be updated.
+
 Sends you to your home directory, downloads the installer, makes it executable, and executes it. 
 
 You should also read the installer file but considering you're **this** lazy, you probably won't read it.
