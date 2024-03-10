@@ -13,14 +13,9 @@ And this is pretty much why I made this, uh, thing.
 This currently needs:
 ```diff
 + zsh (duh)
-+ display3d (optional)
-+ exa (optional)
-+ nitch (optional)
-+ a brain (((optional)))
++ a brain (optional)
 ```
-You can get `display3d` [here](https://github.com/redpenguinyt/display3d) *(cool rice, dude!)*
-
-You can probably get the others from your package manager, or simply build them yourself. Once again, **they are optional**.
+You can probably get them from your package manager, or simply build them yourself.
 
 ## Yeah yeah, but how do I install it?
 Simple! just clone the repo and move all the files *(.zshrc and .zsh)* to your home directory. 
@@ -44,10 +39,10 @@ That should move the files to your home folder.
 
 Just run this in your terminal:
 ```sh
-cd $HOME ; wget https://github.com/soswav/soswavified-zsh/raw/branch/main/installer.sh ; chmod +x installer.sh ; ./installer.sh
+cd $HOME ; curl -O https://github.com/soswav/soswavified-zsh/raw/branch/main/installer.sh ; chmod +x installer.sh ; ./installer.sh
 ```
 >[!NOTE]
->Currently, the installer won't be updated.
+>Currently, the installer is being updated.
 
 Sends you to your home directory, downloads the installer, makes it executable, and executes it. 
 
@@ -58,5 +53,7 @@ Go to your .zsh folder and read the **README.md** file.
 
 I'll update it constantly to tell you *"What Does What"*.
 
-## Nah dude, this config **fucking** SUCKS. (Excuse me for the lenguage.)
-Open a issue and tell me what I should improve then! I could add it ;)
+## Nah dude, this config SUCKS.
+Open a issue and tell me what I should improve then! 
+
+...And don't be mean, please?
