@@ -7,22 +7,28 @@ Second of all: **I'm still learning some stuff and you are expected *(sort of)* 
 
 Well, now I'll actually say **"what does what"**.
 
+>[!NOTE]
+>This README is currently (a bit) outdated. I still recommend you to read it but it's better to read the comments inside the files.
+
 ## .zsh/
 This is the folder that goes inside your `$HOME` *(`~`)* directory.
 
 This folder is sortof well organized. At first glance, you will notice a set of files:
-1. `.history` | This is where you can find the cache, AKA your commands history. 
-   - `cache` | Where your history is saved.
-2. `zinit/` | Where most of Zinit-related stuff is located.
-   - `loader.zsh`  | Loads Zinit and attempts to install if not installed already.
-   - `plugins.zsh` | Where plugins to load with Zinit are located.
-   - `themes.zsh`  | Where you place your theme from the [Oh-My-Zsh](https://github.com/ohmyzsh/ohmyzsh) repositories.
-3. `aliases.zsh` | Where the aliases are located.
-4. `boot.zsh` | Commands to be runned at startup. I usually use this with a fetch tool such as [Nitch]().
-5. `misc.zsh` | Misc stuff that I run at startup. They are **mostly** important.
-6. `starship.zsh` | Loads [Starship](https://starship.rs) with Zinit.
+1. `.history` | This is where you can find the cache, AKA your commands history. [*](#history)
+   - `cache` | Where your history is saved. [*](#historycache)
+2. `zinit/` | Where most of Zinit-related stuff is located. [*](#zinit)
+   - `loader.zsh`  | Loads Zinit and attempts to install if not installed already. [*](#zinitloaderzsh)
+   - `plugins.zsh` | Where plugins to load with Zinit are located. [*](#zinitpluginszsh)
+   - `themes.zsh`  | Where you place your theme from the [Oh-My-Zsh](https://github.com/ohmyzsh/ohmyzsh) repositories. [*](#zinitthemeszsh)
+3. `aliases.zsh` | Where the aliases are located. [*](#zshaliasezsh)
+4. `boot.zsh` | Commands to be runned at startup. I usually use this with a fetch tool such as [Nitch](https://github.com/ssleert/nitch). [*](#zshbootzsh)
+5. `misc.zsh` | Misc stuff that I run at startup. They are **mostly** important. [*](#zshmisczsh)
+6. `starship.zsh` | Loads [Starship](https://starship.rs) with Zinit. [*](#zshstarshipzsh)
 >[!TIP]
 > I recommend reading the comments in every file as they can be useful if you want to customize.
+
+>[!NOTE]
+>The list above contains "`*`" that link to different headers used inside this file; use it as you wish.
 
 Now, you may ask:
 
