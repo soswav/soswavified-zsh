@@ -57,3 +57,12 @@ I'll update it constantly to tell you *"What Does What"*.
 Open a issue and tell me what I should improve then! 
 
 ...And don't be mean, please?
+
+### I've noticed that the .zshrc file contains a "soswavTheme", what does that mean?
+I'm currently trying to implement booleans in my configuration; I may add a completly different folder (and file) to add various themes I made. I \*may\* as well add themes from suggestion.
+
+Here's what "soswavTheme" looks like:
+
+![](https://github.com/soswav/soswavified-zsh/assets/154848161/07689510-87ec-4b95-ad34-5d2b17f1ce68)
+
+Oh man, I sure love my \*\*awesome\*\* screenshot tool! Oh man I sure appreciate my screen resoultion! Oh geez!
