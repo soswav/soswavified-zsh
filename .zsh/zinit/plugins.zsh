@@ -10,13 +10,13 @@ zi ice wait'!0' lucid                     ## lucid mode to speed up stuff
 zi light marlonrichert/zsh-autocomplete     ## this is personal preference but it will basically give you (good) completion for various stuff
 
 zi ice wait'!0' lucid                     ## lucid mode to speed up stuff
-zi light ianthehenry/zsh-autoquoter         ## autoquotes some stuff so you don't gotta add them manually
-
-zi ice wait'!0' lucid                     ## lucid mode to speed up stuff
 zi light zsh-users/zsh-autosuggestions      ## previously runned commands will have a grayish look, kinda like the friendly interactive shell
 
 zi ice wait'!0' lucid                     ## lucid mode to speed up stuff
-zi light z-shell/zsh-diff-so-fancy          ## shows diff on git cmds and some zsh stuff
+zi light qoomon/zsh-lazyload                ## "zsh plugin for lazy load commands and speed up start up time of zsh"
+
+zi ice wait'!0' lucid                     ## lucid mode to speed up stuff
+zi light goarano/zsh-lazy-load              ## "zsh/bash plugin for lazy loading completions"
 
 ### NOTE: if you want a list of plugins go to "awesome-zsh-plugins" and find one that catches your attention!
 ### ANOTHER NOTE: we use "zi" here as it is a shorthand for "zinit"; kindof like an alias!
