@@ -23,6 +23,9 @@ Simple! just clone the repo and move all the files *(.zshrc and .zsh)* to your h
 ```sh
 cd "$HOME" ; git clone https://codeberg.org/soswav/soswavified-zsh
 ```
+>[!NOTE]
+>Codeberg link because it's the one I update first.
+
 Considering that you're **not** using the installer, you probably already know some stuff about your terminal.
 
 Now, just move the old `.zshrc` file to whereever you want as I **seriously** want you to backup your stuff.
