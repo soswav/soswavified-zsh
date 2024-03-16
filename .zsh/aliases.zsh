@@ -1,15 +1,32 @@
 ##### aliases.zsh file
 
-alias fetch="$fetchTool"                                    ### change to your fetch tool, or just remove the alias
 alias cclear="clear ; source ~/.zshrc"                      ### reloads config, i personally use this for testing (or clearing my terminal)
-alias blahaj="display3d $H/Documents/blahaj.obj -t 0,0,5.5" ### you should disable this if you don't have display3d (nor have the file)
-alias f="$fileManager"                                      ### file manager specified in .zshrc
 alias ping1="ping 1.1.1.1"                                  ### pings cloudflare's DNS (for testing my internet speed ig)
 alias ping8="ping 8.8.8.8"                                  ### pings google's DNS (also for testing my internet speed)
 alias ping9="ping 9.9.9.9"                                  ### pings quad nine's DNS (testing)
 alias vim="nvim"                                            ### :troll:
 alias neovim="nvim"                                         ### :troll:
 alias vi="nvim"                                             ### :troll:
+
+### tools stuff, mostly checking if it exists
+
+if command -v $musicTool >/dev/null; then
+  alias m="$musicTool"
+elif [[ "$notifsShow" == "true" ]]; then
+  echo -e "musicTool \"$musicTool\" not found!"
+fi
+
+if command -v $fetchTool >/dev/null; then
+  alias fetch="$fetchTool"
+elif [[ "$notfisShow" == "true" ]]; then
+  echo -e "fetchTool \"$fetchTool\" not found!"
+fi
+
+if command -v $fileManager >/dev/null; then
+  alias f="$fileManager"
+elif [[ "$notifsShow" == "true" ]]; then
+  echo -e "fileManager \"$fileManager\" not found!"
+fi
 
 ### dirs stuff
 
@@ -22,11 +39,15 @@ function cdl() {                              #### for viewing files inside a fo
       echo -e "i'm sorry, but you're mentioning a file!" ## prints to the terminal "i'm sorry, but you're mentioning a file!"
     fi                                          ## closes if statement
   elif [[ "$notifsShow" == "true" ]];then      ### if the command could not be found and the "notifsShow" variable is "true", do this:
-    echo -e "command not found!"                ## prints to the terminal "command not found!"
+    echo -e "dirTool \"$dirTool\" not found!"   ## prints to the terminal
   fi                                           ### end of the if statement
 }                                             #### end of function
 
-alias dirs="$dirTool --icons always -F -l"                       ### to see directories easier
-alias dirsa="$dirTool --icons always -F -la"                     ### to see all directories easier
+if command -v $dirTool >/dev/null; then
+  alias dirs="$dirTool --icons always -F -l"
+  alias dirsa="$dirTool --icons always -F -la"
+elif [[ "$notifsShow" == "true" ]]; then
+  echo -e "dirTool \"$dirTool\" not found!"
+fi
 
 ##### end of file
