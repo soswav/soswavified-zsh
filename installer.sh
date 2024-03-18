@@ -35,7 +35,7 @@ function installer() {
   if command -v zsh >/dev/null; then
     echo -e "${GREEN}zsh found! resuming installation...${NC}"
   else
-    echo -e "${RED}zsh NOT found! attempting to install with package managers...\nplease note that this will use sudo! it obviously won't delete your home directory, but if you don't trust me and want to be extra cautious; then check the script! if you want to install the package yourself with your own package manager, then press CTRL+C! i'm giving you 10 seconds, though.${NC}" ; wait 10
+    echo -e "${RED}zsh NOT found! attempting to install with package managers...\nplease note that this will use sudo! it obviously won't delete your home directory, but if you don't trust me and want to be extra cautious; then check the script! if you want to install the package yourself with your own package manager, then press CTRL+C! i'm giving you 10 seconds, though.${NC}" ; sleep 10
     if command -v pacman >/dev/null; then
       sudo pacman -Syu zsh
     elif command -v dnf >/dev/null; then
