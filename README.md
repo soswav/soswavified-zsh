@@ -21,7 +21,7 @@ You can probably get them from your package manager, or simply build them yourse
 Simple! just clone the repo and move all the files *(.zshrc and .zsh)* to your home directory. 
 
 ```sh
-cd "$HOME" ; git clone https://codeberg.org/soswav/soswavified-zsh
+cd "$HOME" ; git clone https://codeberg.org/soswav/soswavified-zsh.git
 ```
 >[!NOTE]
 >Codeberg link because it's the one I update first.
@@ -42,7 +42,7 @@ That should move the files to your home folder.
 
 Just run this in your terminal:
 ```sh
-cd $HOME ; curl -O https://github.com/soswav/soswavified-zsh/raw/branch/main/installer.sh ; chmod +x installer.sh ; ./installer.sh
+cd $HOME ; curl -O https://raw.githubusercontent.com/soswav/soswavified-zsh/main/installer.sh ; chmod +x installer.sh ; ./installer.sh
 ```
 >[!NOTE]
 >Currently, the installer is being updated.
